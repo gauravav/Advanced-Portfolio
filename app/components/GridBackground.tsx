@@ -15,7 +15,7 @@ export default function GridBackground() {
   const dotsRef = useRef<Dot[]>([]);
   const linesRef = useRef<HTMLDivElement[]>([]);
   const mouseRef = useRef({ x: -300, y: -300 });
-  const animationFrameRef = useRef<number>();
+  const animationFrameRef = useRef<number | undefined>(undefined);
 
   useEffect(() => {
     const gridContainer = containerRef.current;
