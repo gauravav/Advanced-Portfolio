@@ -1,0 +1,6 @@
+name = "advanced-portfolio"
+compatibility_date = "2025-12-01"
+
+# Deploy static assets from the out directory
+[assets]
+directory = "./out"
